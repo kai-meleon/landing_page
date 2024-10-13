@@ -5,9 +5,11 @@ body {
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+
 .header-hero-wrapper {
     background-color: #1F2937;
 }
+
 .header {
 display: flex;
 align-items: center;
@@ -15,20 +17,24 @@ margin: 10px;
 justify-content: space-around;
 font-size: 18px;
 }
+
 .header-logo {
     height: 50px;
     width: auto;
 }
+
 .header-links {
     display: flex;
     list-style-type: none;
     margin:0;
     gap:10px;
 }
+
 .header-links  a {
     color:#E5E7EB;
     text-decoration: none;
 }
+
 .hero {
     display: flex;
     justify-content: center;
@@ -36,10 +42,12 @@ font-size: 18px;
     margin-left: 400px;
     margin-right: 400px;
 }
+
 .jb-tech-card {
     align-self: center;
     margin-right: 20px;
 }
+
 h1 {
     font-size: 48px,
     font-weight: 900;
@@ -47,9 +55,11 @@ h1 {
     padding:0;
     margin: 0;
 }
+
 .hero-text {
     color:#E5E7EB;
 }
+
 .sign-up-button {
     background-color: #3882F6;
     color: #E5E7EB;
@@ -57,4 +67,36 @@ h1 {
     padding: 5px 20px;
     border-radius: 5px;
     border: 0;
+}
+
+.cards.wrapper {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3B82F6;
+}
+
+.card-subtext{
+    text-align: center;
+    margin-top: -15px;
 }
